@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Eclipsus SOS</string>
+    <string name="Text_View1">SAPS</string>
+    <string name="Text_view2">Fire department</string>
+    <string name="Text_View3">Law_enforce3</string>
+    <string name="Text_view4">Metro_police</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="title_activity_maps2">MapsActivity2</string>
+    <string name="title_activity_maps3">MapsActivity3</string>
+
+</resources>

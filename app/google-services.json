@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "409355085763",
+    "project_id": "eclipsussos-17ebd",
+    "storage_bucket": "eclipsussos-17ebd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:409355085763:android:866fc7f8cd7cf14971ff76",
+        "android_client_info": {
+          "package_name": "com.example.eclipsussos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "409355085763-uoefhn4fo6kp1ql7kelubu4sfmq84u7a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuti1j9n_yGzmY60YMnXv00n4svcINYQE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "409355085763-6uho89klv1v41moqtp5qp4nho724dr2p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
