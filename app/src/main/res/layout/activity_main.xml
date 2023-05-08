@@ -9,20 +9,6 @@
     tools:context=".MainActivity">
 
 
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Eclipsus SOS"
-        android:textColor="@color/black"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toTopOf="@+id/imageView3"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="MissingConstraints" />
-
     <ImageView
         android:id="@+id/imageView3"
         android:layout_width="360dp"
@@ -40,7 +26,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Are you in an Emergency?"
-        android:textColor="@color/black"
+        android:textColor="#FF1616"
         android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout"
         app:layout_constraintEnd_toEndOf="parent"
@@ -59,8 +45,8 @@
 
     <Button
         android:id="@+id/Loginbtn"
-        android:layout_width="286dp"
-        android:layout_height="66dp"
+        android:layout_width="284dp"
+        android:layout_height="45dp"
         android:background="@drawable/btn_bg"
         android:text="LOGIN"
         android:textSize="16sp"

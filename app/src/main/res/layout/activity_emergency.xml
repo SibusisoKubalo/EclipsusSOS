@@ -105,7 +105,7 @@
         android:text="Sibusuisokhubalo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.327"
+        app:layout_constraintHorizontal_bias="0.358"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.026"
@@ -132,7 +132,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:menu="@menu/bottom_nav_menu" >
+            app:menu="@menu/bottom_nav_menu">
 
         </com.google.android.material.bottomnavigation.BottomNavigationView>
 
@@ -184,9 +184,11 @@
 
     <Button
         android:id="@+id/SOS_btn"
-        android:layout_width="63dp"
-        android:layout_height="59dp"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
         android:layout_marginBottom="28dp"
+        android:textStyle="bold"
+        android:textSize="13dp"
         android:background="@drawable/btn_red"
         android:text="SOS"
         app:layout_constraintBottom_toBottomOf="parent"
