@@ -76,6 +76,7 @@ public class Emergency_Activity extends AppCompatActivity implements OnMapReadyC
 
 
 
+
         Task<Location> task = fusedLocationProviderClient.getLastLocation();
         task.addOnSuccessListener(new OnSuccessListener<Location>() {
             @Override

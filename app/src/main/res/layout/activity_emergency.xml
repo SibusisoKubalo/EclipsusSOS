@@ -11,15 +11,15 @@
     <fragment
         android:id="@+id/map"
         android:name="com.google.android.gms.maps.SupportMapFragment"
-        android:layout_width="374dp"
-        android:layout_height="222dp"
-        android:layout_marginBottom="88dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="422dp"
+        android:layout_height="289dp"
+        app:layout_constraintBottom_toBottomOf="@+id/bottomAppBar"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.887"
         tools:context=".MapsActivity" />
-
 
     <ImageButton
         android:id="@+id/imageButton4"
@@ -38,8 +38,8 @@
 
     <ImageButton
         android:id="@+id/imageButton3"
-        android:layout_width="76dp"
-        android:layout_height="116dp"
+        android:layout_width="74dp"
+        android:layout_height="121dp"
         android:background="@drawable/img_btn"
         android:contentDescription="metro police"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -53,8 +53,8 @@
 
     <ImageButton
         android:id="@+id/imageButton5"
-        android:layout_width="88dp"
-        android:layout_height="113dp"
+        android:layout_width="93dp"
+        android:layout_height="120dp"
         android:background="@drawable/img_btn"
         android:contentDescription="law enforcement"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -98,17 +98,17 @@
 
     <ImageButton
         android:id="@+id/button"
-        android:layout_width="358dp"
-        android:layout_height="57dp"
+        android:layout_width="352dp"
+        android:layout_height="36dp"
         android:background="@drawable/user_icon"
         android:contentDescription="user avatar"
         android:text="Sibusuisokhubalo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.358"
+        app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.026"
+        app:layout_constraintVertical_bias="0.06"
         tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,ImageContrastCheck,ImageContrastCheck" />
 
     <com.google.android.material.bottomappbar.BottomAppBar
@@ -116,10 +116,10 @@
         android:layout_width="427dp"
         android:layout_height="43dp"
         android:layout_gravity="bottom"
-        android:layout_marginBottom="4dp"
         app:layout_anchor="@+id/bottomAppBar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="BottomAppBar,NotSibling">
 
@@ -142,44 +142,74 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="South african"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.216"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="182dp" />
+        android:text="South African Police"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButton"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton"
+        app:layout_constraintHorizontal_bias="0.55"
+        app:layout_constraintStart_toStartOf="@+id/imageButton"
+        app:layout_constraintTop_toTopOf="@+id/imageButton"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="105dp"
+        android:layout_height="21dp"
         android:text="Ambulance"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.733"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="181dp" />
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButton2"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton2"
+        app:layout_constraintHorizontal_bias="0.702"
+        app:layout_constraintStart_toStartOf="@+id/imageButton2"
+        app:layout_constraintTop_toTopOf="@+id/imageButton2"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Law enf"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.105"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="MissingConstraints,TextContrastCheck,TextContrastCheck"
-        tools:layout_editor_absoluteY="293dp" />
+        android:text="Law Enf"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButton3"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton3"
+        app:layout_constraintStart_toStartOf="@+id/imageButton3"
+        app:layout_constraintTop_toTopOf="@+id/imageButton3"
+        app:layout_constraintVertical_bias="0.855"
+        tools:ignore="MissingConstraints,TextContrastCheck,TextContrastCheck" />
 
     <TextView
         android:id="@+id/textView5"
+        android:layout_width="65dp"
+        android:layout_height="21dp"
+        android:text="Metro"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButton5"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton5"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/imageButton5"
+        app:layout_constraintTop_toTopOf="@+id/imageButton5"
+        app:layout_constraintVertical_bias="0.858"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="metro\"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.35"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="293dp"
+        android:text="Fire Department"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButton4"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton4"
+        app:layout_constraintHorizontal_bias="0.55"
+        app:layout_constraintStart_toStartOf="@+id/imageButton4"
+        app:layout_constraintTop_toTopOf="@+id/imageButton4"
+        app:layout_constraintVertical_bias="0.969"
         tools:ignore="MissingConstraints" />
 
     <Button
