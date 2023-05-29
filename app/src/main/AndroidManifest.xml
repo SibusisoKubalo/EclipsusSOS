@@ -3,9 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.eclipsussos">
 
-    <uses-feature
-        android:name="android.hardware.telephony"
-        android:required="true" />
+
 
 
     <uses-permission android:name="android.permission.INTERNET"/>
@@ -20,7 +18,8 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.EclipsusSOS">
+        android:theme="@style/Theme.EclipsusSOS"
+        >
 
 
         <meta-data
