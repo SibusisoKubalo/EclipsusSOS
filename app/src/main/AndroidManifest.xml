@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.eclipsussos" >
+    package="com.example.eclipsussos">
 
-    <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="true" />
 
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -16,21 +20,16 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.EclipsusSOS" >
-        <activity
-            android:name=".ResetPassword"
-            android:exported="false" />
-        <activity
-            android:name=".activity_reset_paswword"
-            android:exported="false" />
+        android:theme="@style/Theme.EclipsusSOS">
+
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyAS1SHn5sgSmGjW34bXnVsnhdUvRQvydBQ" />
-
         <activity
             android:name=".Emergency_Activity"
             android:exported="false" />
+
         <activity
             android:name=".SignUp_Activity"
             android:exported="false" />
@@ -39,8 +38,8 @@
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="true"
-            android:label="Eclipsus SOS" >
+            android:label="Eclipsus SOS"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -48,5 +47,7 @@
             </intent-filter>
         </activity>
     </application>
+
+
 
 </manifest>
