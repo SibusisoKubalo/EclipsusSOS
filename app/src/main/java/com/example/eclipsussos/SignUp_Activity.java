@@ -41,6 +41,15 @@ public class SignUp_Activity extends AppCompatActivity {
 
 
 
+        TextView btn=findViewById(R.id.alreadyHaveAccount);
+        btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(SignUp_Activity.this,Login_Activity.class));
+            }
+        });
+
+
 
         SignUp.setOnClickListener(new View.OnClickListener() {
             @Override

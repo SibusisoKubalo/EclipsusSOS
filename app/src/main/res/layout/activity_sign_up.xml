@@ -7,24 +7,24 @@
     android:background="@drawable/background_intro"
     tools:context=".SignUp_Activity">
 
+
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="321dp"
-        android:layout_height="225dp"
+        android:layout_width="299dp"
+        android:layout_height="186dp"
         android:contentDescription="TODO"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintHorizontal_bias="0.433"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/illustration_started" />
 
-
     <EditText
         android:id="@+id/FirstName"
-        android:layout_width="371dp"
-        android:layout_height="38dp"
+        android:layout_width="326dp"
+        android:layout_height="55dp"
         android:background="@drawable/input_bg"
         android:drawableLeft="@drawable/ic_person"
         android:drawablePadding="10dp"
@@ -42,13 +42,13 @@
         app:layout_constraintHorizontal_bias="0.4"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView3"
-        app:layout_constraintVertical_bias="0.052"
+        app:layout_constraintVertical_bias="0.0"
         tools:ignore="MissingConstraints" />
 
     <EditText
         android:id="@+id/LastName"
-        android:layout_width="371dp"
-        android:layout_height="38dp"
+        android:layout_width="326dp"
+        android:layout_height="55dp"
         android:background="@drawable/input_bg"
         android:drawableLeft="@drawable/ic_person"
         android:drawablePadding="10dp"
@@ -66,18 +66,18 @@
         app:layout_constraintHorizontal_bias="0.4"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView3"
-        app:layout_constraintVertical_bias="0.189"
+        app:layout_constraintVertical_bias="0.157"
         tools:ignore="MissingConstraints" />
 
     <EditText
         android:id="@+id/email"
-        android:layout_width="371dp"
-        android:layout_height="38dp"
+        android:layout_width="326dp"
+        android:layout_height="55dp"
         android:background="@drawable/input_bg"
+        android:drawableLeft="@drawable/ic_email"
         android:drawablePadding="10dp"
         android:ems="10"
         android:hint="Email"
-        android:drawableLeft="@drawable/ic_email"
         android:inputType="textPersonName"
         android:paddingLeft="20dp"
         android:paddingTop="10dp"
@@ -90,13 +90,13 @@
         app:layout_constraintHorizontal_bias="0.4"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView3"
-        app:layout_constraintVertical_bias="0.343"
+        app:layout_constraintVertical_bias="0.322"
         tools:ignore="MissingConstraints" />
 
     <EditText
         android:id="@+id/inputPassword2"
-        android:layout_width="371dp"
-        android:layout_height="38dp"
+        android:layout_width="326dp"
+        android:layout_height="55dp"
         android:background="@drawable/input_bg"
         android:drawableLeft="@drawable/ic_security"
         android:drawablePadding="10dp"
@@ -114,13 +114,13 @@
         app:layout_constraintHorizontal_bias="0.4"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView3"
-        app:layout_constraintVertical_bias="0.505"
+        app:layout_constraintVertical_bias="0.492"
         tools:ignore="MissingConstraints" />
 
     <EditText
         android:id="@+id/inputConfirmPassword"
-        android:layout_width="371dp"
-        android:layout_height="38dp"
+        android:layout_width="326dp"
+        android:layout_height="55dp"
         android:background="@drawable/input_bg"
         android:drawableLeft="@drawable/ic_security"
         android:drawablePadding="10dp"
@@ -138,14 +138,14 @@
         app:layout_constraintHorizontal_bias="0.4"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView3"
-        app:layout_constraintVertical_bias="0.648"
+        app:layout_constraintVertical_bias="0.657"
         tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/SignUpbtn2"
         android:layout_width="207dp"
         android:layout_height="46dp"
-        android:layout_marginBottom="68dp"
+        android:layout_marginBottom="88dp"
         android:background="@drawable/btn_bg"
         android:text="Sign Up"
         android:textSize="16sp"
@@ -153,6 +153,20 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/alreadyHaveAccount"
+        android:layout_width="229dp"
+        android:layout_height="22dp"
+        android:text="Already Have An Account?Login"
+        android:textColor="#FF1616"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/SignUpbtn2"
+        app:layout_constraintStart_toStartOf="@+id/SignUpbtn2"
+        app:layout_constraintTop_toBottomOf="@+id/SignUpbtn2"
+        app:layout_constraintVertical_bias="0.294" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
