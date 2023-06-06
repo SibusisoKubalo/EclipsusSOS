@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="search_address" type="id" />
+    <item name="location_search" type="id" />
+    <item name="Hospital" type="id" />
+    <item name="fire_department" type="id" />
+    <item name="law_enforcement" type="id" />
+    <item name="metro_police" type="id" />
+</resources>
